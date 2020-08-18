@@ -1,0 +1,14 @@
+@import "variables";
+@import "navbar";
+@import "slides";
+@import "contact";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $bgColor;
+    font-family: "Montserrat", sans-serif;
+}

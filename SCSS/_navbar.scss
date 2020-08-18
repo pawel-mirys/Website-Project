@@ -1,0 +1,49 @@
+.nav-header {
+    @include flex(center, space-between);
+    min-height: 10vh;
+    font-size: 1rem;
+    color: $whiteColor;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+#logo {
+    color: $whiteColor;
+    font-family: "Abril Fatface";
+}
+
+.line1,
+.line2 {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: $whiteColor;
+    pointer-events: none;
+}
+
+.nav-bar {
+    @include flex(center, space-around);
+    z-index: 1;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $whiteColor;
+    clip-path: circle(50px at 100% -10%);
+    -webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.nav-links {
+    font-size: 3rem;
+    flex-basis: 30rem;
+    h3 {
+        padding: 3em 0em;
+    }
+}

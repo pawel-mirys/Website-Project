@@ -1,0 +1,12 @@
+@mixin flex($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+$bgColor: #17181a;
+$fSpanColor: #ff8b5d;
+$mSpanColor: #567ce4;
+$hSpanColor: #a66ee7;
+$whiteColor:#ffffff;
+$pColor: #d8d8d8;

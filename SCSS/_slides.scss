@@ -1,0 +1,79 @@
+.slide {
+    @include flex(center, space-between);
+    min-height: 100vh;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    color: $whiteColor;
+    background: $bgColor;
+}
+
+.hero-desc {
+    @include flex(center, center);
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 25rem;
+    padding-left: 5em;
+    position: relative;
+    h2 {
+        font-family: "Abril Fatface";
+        font-size: 5rem;
+    }
+    p {
+        padding: 3em rem;
+        font-size: 1.5rem;
+        color: $pColor;
+    }
+}
+
+.hero-img {
+    position: relative;
+    flex: 1;
+    flex-basis: 25rem;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.fashion-span {
+    color: $fSpanColor;
+}
+
+.mountain-span {
+    color: $mSpanColor;
+}
+
+.hike-span {
+    color: $hSpanColor;
+}
+
+.explore {
+    padding: 1rem 2rem;
+    background: none;
+    border: none;
+    color: $whiteColor;
+    border: 1px solid $whiteColor;
+    font-size: 1rem;
+    text-decoration: none;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.reveal-img,
+.reveal-text {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: $bgColor;
+    left: 0;
+    top: 0;
+}
+
+.cursor {
+    width: 2em;
+    height: 2em;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
