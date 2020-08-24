@@ -8,6 +8,7 @@
   width: 80%;
   margin: auto;
   padding: 2rem;
+  z-index: 2;
 }
 
 #logo {
@@ -45,11 +46,11 @@
 }
 
 .nav-links {
-  font-size: 3rem;
+  font-size: 2.5rem;
   flex-basis: 30rem;
 }
 .nav-links h3 {
-  padding: 3em 0em;
+  padding: 2rem 0rem;
 }
 
 .slide {
@@ -164,12 +165,13 @@
   flex-basis: 30rem;
 }
 .contact h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 2rem 0rem;
 }
 .contact p {
   font-size: 1.5rem;
   line-height: 2rem;
+  font-weight: 400 !important;
 }
 
 .cursor {
@@ -211,4 +213,7 @@ body {
   background: #17181a;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+}
+body.hide {
+  overflow: hidden;
 }
