@@ -101,3 +101,27 @@
 .scrollmagic-pin-spacer {
     position: static !important;
 }
+
+.swipe {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.swipe1 {
+    background: $hSpanColor;
+    z-index: 5;
+}
+
+.swipe2 {
+    background: $mSpanColor;
+    z-index: 4;
+}
+
+.swipe3 {
+    background: $fSpanColor;
+    z-index: 3;
+}
